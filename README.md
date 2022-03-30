@@ -39,12 +39,7 @@ export const returnpost = function(){//返回tomcat服务器的端口号（为�
 
 ## 5.项目运行结果
 
-![1648616634446](C:\Users\HUAWEI\AppData\Roaming\Typora\typora-user-images\1648616634446.png)
-
-
-
-![1648616665883](C:\Users\HUAWEI\AppData\Roaming\Typora\typora-user-images\1648616665883.png)
-
+![输入图片说明](%E5%9B%BE%E7%89%87.png)
 
 
 ## 6.项目总结
