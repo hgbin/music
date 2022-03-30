@@ -3,35 +3,50 @@
 #### 介绍
 利用vue+element+servlet+axios搭建的关于模仿网易云pc端的前后端项目。
 
-#### 软件架构
-软件架构说明
+# 项目启动前准备
+
+## 1.本项目启动前需要做以下修改
+
+（1）打开Music项目，修改‘Music/util/Getconn’路径下的数据库用户名以及密码。
+如'jdbc:mysql://localhost:3306/music?user=你的数据库用户名&password=你的数据库密码'
+
+（2）打开Music项目，修改‘Music/util/Getinterface’路径下的端口号。
+如'return "http://localhost:你的端口号/Music/assets/image/";'
+
+（3）打开网易云项目，修改'Vue.config.js'里面办理的端口号
+如'target:'http://localhost:你的tomcat服务器端口号/Music','
+
+（4）打开网易云项目，修改'网易云/src/assets/js/Myapi.js'路径下的tomcat端口号。
+export const returnpost = function(){//返回tomcat服务器的端口号（为了--更新图像
+    return 'http://localhost:你的tomcat服务器端口号/Music/assets/image/'
+}
+
+注: Music项目指的是后端项目, 网易云项目指的是Vue前端项目。
+
+## 2.导入数据库
+
+（1）启动navicat，创建music数据库后，运行sql存储文件。
+
+## 3.项目运行
+
+（1）打开网易云项目，进入终端模式，输入命令：npm install
+
+（2）下载完成后，继续终端模式，输入命令：npm run serve
+
+## 4.项目jdk
+
+本项目的后端是利用eclipse搭建的项目，jdk版本为15。
+
+## 5.项目运行结果
+
+![1648616634446](C:\Users\HUAWEI\AppData\Roaming\Typora\typora-user-images\1648616634446.png)
 
 
-#### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+![1648616665883](C:\Users\HUAWEI\AppData\Roaming\Typora\typora-user-images\1648616665883.png)
 
 
-#### 特技
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## 6.项目总结
+
+本项目为实训项目，效果一般，可以供参考。
