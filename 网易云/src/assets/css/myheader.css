@@ -1,0 +1,90 @@
+.el-row {
+    background-color: #242424;
+    border-bottom: 1px solid #000;
+}
+.el-row:last-child{
+    margin-bottom: 0;
+}
+.el-col {
+    border-radius: 4px;
+}
+#logo-img{
+    height: 70px;
+    text-align: right;
+}
+.header-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-link a{
+    display: block;
+    height: 70px;
+    line-height: 70px;
+    margin: 0 auto 0 !important;
+    padding: 0 10px 0;
+}
+.header-link a:hover{
+    background-color: #000000;   
+}
+#header a.router-link-exact-active {
+    color: #00000058;
+}
+#search-box{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+#search-list{
+    width: 250px;
+    background-color: #00000058;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 10px 10px 0 rgba(164, 164, 164, 0.64);
+    position: absolute;
+    top:70px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2000;
+    padding: 0 4px 0 !important;
+}
+.show-list{
+    border-bottom: 2px solid #aa6767;
+    opacity: 0.8;
+}
+.my-input{
+    width: 200px !important;
+    height: 40px;
+    outline: none;
+}
+#upload-box{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 0 !important;
+}
+#my-header2{
+    background-color: #c20c0c !important;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#my-header2-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#my-header2-box a{
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 auto 0;
+    padding: 0 10px 0;
+}
+#my-header2-box a:hover{
+    background-color: #9b0909;   
+}
+#search-div{
+    cursor: pointer;
+}

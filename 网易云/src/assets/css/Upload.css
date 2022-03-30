@@ -1,0 +1,40 @@
+.my-upload-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.my-upload-form{
+    width: 60%;
+    border: 4px dashed rgb(235, 185, 185);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px !important;
+}
+#my-upload-title{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #e9b4b4;
+    font-family: 微软雅黑;
+    margin: 10px !important;
+}
+.my-upload-form-item{
+    margin: 4px auto 10px;
+    display: flex;
+    justify-content: center;
+}
+.my-upload-input{
+    width: 300px;
+    margin-bottom: 2px !important;
+}
+.el-form-item__label{
+    width: 300px !important;
+}
+.my-form-select{
+    width: 300px;
+}
+.my-form-date{
+    width: 300px !important;
+}
